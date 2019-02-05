@@ -14,7 +14,7 @@ strategy:
       node_version: 10.x
 
 pool:
-  vmImage: '$(vm)'
+  vmImage: 'Ubuntu-18.04'
 
 steps:
 - task: NodeTool@0
