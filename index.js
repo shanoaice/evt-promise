@@ -1,4 +1,4 @@
-const EventEmitter = require('events');
+const EventEmitter = require('eventemitter2');
 //const validate = require('aproba');
 /**
  * @param {function} fn The function that you want to execute
