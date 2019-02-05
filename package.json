@@ -17,6 +17,6 @@
   "scripts": {
 	  "test": "ava --verbose",
 	  "test:tap": "ava --tap | tap-nyan",
-	  "test:watch": "ava --verbose --watch"
+	  "test:watch": "ava --watch"
   }
 }

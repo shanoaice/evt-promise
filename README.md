@@ -1,4 +1,5 @@
 # evt-async
+[![Build Status](https://dev.azure.com/ksryy/evt-async/_apis/build/status/KsRyY.evt-async?branchName=master)](https://dev.azure.com/ksryy/evt-async/_build/latest?definitionId=1&branchName=master)
 
 > An event-driven solution for async functions
 
