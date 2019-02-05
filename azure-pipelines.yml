@@ -6,15 +6,23 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'Ubuntu-16.04'
-
 strategy:
   matrix:
-    node_8_x:
+    node_8_ubuntu:
       node_version: 8.x
-    node_10_x:
+      vm: 'Ubuntu-16.04'
+    node_10_ubuntu:
       node_version: 10.x
+      vm: 'Ubuntu-16.04'
+    node_8_vs2017:
+      node_version: 8.x
+      vm: 'VS2017'
+    node_10_vs2017:
+      node_version: 10.x
+      vm: 'VS2017'
+
+pool:
+  vmImage: '$(vm)'
 
 steps:
 - task: NodeTool@0
