@@ -11,12 +11,15 @@
   },
   "devDependencies": {
     "ava": "^1.2.0",
+    "coveralls": "^3.0.2",
     "eslint": "^5.13.0",
+    "nyc": "^13.2.0",
     "tap-nyan": "^1.1.0"
   },
   "scripts": {
-	  "test": "ava --verbose",
-	  "test:tap": "ava --tap | tap-nyan",
-	  "test:watch": "ava --watch"
+	"test": "ava",
+    "test:tap": "ava --tap | tap-nyan",
+	"test:watch": "ava --watch",
+	"test:coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
   }
 }
