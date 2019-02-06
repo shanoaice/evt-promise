@@ -1,12 +1,12 @@
-# evt-async
+# evt-promise
 [![Build Status](https://dev.azure.com/ksryy/evt-async/_apis/build/status/KsRyY.evt-async?branchName=master)](https://dev.azure.com/ksryy/evt-async/_build/latest?definitionId=1&branchName=master) [![Build Status](https://travis-ci.com/KsRyY/evt-async.svg?branch=master)](https://travis-ci.com/KsRyY/evt-async) [![Coverage Status](https://coveralls.io/repos/github/KsRyY/evt-async/badge.svg?branch=master)](https://coveralls.io/github/KsRyY/evt-async?branch=master)
 
-> An event-driven solution for async functions
+> An event-driven promise-like function wrapper, has a different api through the ES6 Promise
 
 ## Install
 
 ``` bash
-npm install evt-async
+npm install evt-promise
 ```
 
 ## Usage
