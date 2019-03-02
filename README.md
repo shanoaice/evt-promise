@@ -30,7 +30,7 @@ var baz = evt(function(arg) {return arg;},[true]);
 baz.exec(function(value){console.log(value);},function(e) {throw e;}); //Will print true
 ```
 
-### BASIC - new Promise-like API
+### BASIC - Promise-like API
 
 ``` javascript
 const evt = require('evt-promise');
@@ -52,6 +52,12 @@ baz.then(function(value){console.log(value);})
 ```
 
 ***Warning: If you are using arrow function as the task in any of the examples that uses new Promise-like API, they won't work because you can't inject a this object to an arrow function***
+
+### BASIC - Promise API
+
+``` javascript
+
+```
 
 ### Advanced - Change the task that you want to run, Change the arguments that you want to pass to the task function - Legacy API:
 
